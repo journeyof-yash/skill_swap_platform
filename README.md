@@ -84,7 +84,9 @@ Develop a Skill Swap Platform — a mini application that enables users to list 
 
 ## Project Structure 📂
 
-skill-swap-backend/
+# Backend Structure
+
+skill-swap-Platform/
 │
 ├── controllers/
 │   ├── user.controller.js
@@ -124,6 +126,53 @@ skill-swap-backend/
 ├── .env
 ├── server.js
 └── package.json
+
+# Frontend Structure 
+
+skill-swap-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── avatar.jpeg             # Static images or icons
+│
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── ProtectedRoute.jsx  # For private route protection
+│   │   ├── DummyUser.jsx
+│   │   └── SwapCard.jsx            # Example UI card for swap requests
+│
+│   ├── pages/
+│   │   ├── HomePage.jsx            # /
+│   │   ├── Login.jsx               # /login
+│   │   ├── Register.jsx            # /register
+│   │   ├── UserProfile.jsx         # /userprofile
+│   │   ├── UserProfilePreview.jsx  # /login/user
+│   │   └── SendSwapRequest.jsx     # /login/userrequest
+│
+│   ├── api/
+│   │   └── axiosInstance.js        # Axios baseURL & interceptors
+│
+│   ├── context/
+│   │   └── AuthContext.js          # Manage user login state globally
+│
+│   ├── routes/
+│   │   └── AppRoutes.jsx           # Centralized React Router routes
+│
+│   ├── App.jsx
+│   ├── index.js
+│   └── index.css                   # Tailwind CSS config file
+│
+├── .env                            # REACT_APP_API_URL
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
+
+
+
 ## API Endpoints 🔗
 
 ### Authentication
