@@ -2,6 +2,10 @@
 
 A web application enabling peer-to-peer skill exchange. Users can list skills they offer, browse others’ profiles, and request skill swaps.
 
+
+# Project Presentation : https://www.canva.com/design/DAGs7fg4gYg/MJTZK18Y3r-0xZ9gemlbIA/edit?utm_content=DAGs7fg4gYg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 ## Table of Contents
 
 * [Problem Statement](#problem-statement)
